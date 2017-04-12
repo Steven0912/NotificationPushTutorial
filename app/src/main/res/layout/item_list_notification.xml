@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="8dp"
+    android:minHeight="?attr/listPreferredItemHeight"
+    app:cardUseCompatPadding="true"
+    app:contentPaddingBottom="8dp"
+    app:contentPaddingLeft="16dp"
+    app:contentPaddingRight="16dp"
+    app:contentPaddingTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="New Text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            tools:text="50%" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/tv_discount"
+            android:layout_toRightOf="@+id/tv_discount"
+            android:text="New Text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            tools:text="¡Cyberlunes!" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/tv_discount"
+            android:layout_toRightOf="@+id/tv_discount"
+            android:text="New Text"
+            tools:text="Compra en línea ahora mismo y ahorra hasta un 50% en el seguro de tu automóvil" />
+
+        <TextView
+            android:id="@+id/tv_expiry_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_description"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/tv_discount"
+            android:layout_toRightOf="@+id/tv_discount"
+            android:text="New Text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textStyle="italic"
+            tools:text="Valido hasta el 7/07/2016" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_expiry_date"
+            android:layout_toEndOf="@+id/tv_discount"
+            android:layout_toRightOf="@+id/tv_discount"
+            android:text="REDIMIR"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

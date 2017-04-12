@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "279076495052",
+    "firebase_url": "https://notificationpushtutorial.firebaseio.com",
+    "project_id": "notificationpushtutorial",
+    "storage_bucket": "notificationpushtutorial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279076495052:android:e4d5f5d8426f1ada",
+        "android_client_info": {
+          "package_name": "com.develop.desarrollohappyinc.notificationpushtutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279076495052-7sq4u4e6v8a7j1vmjciq5pi2k9i60l1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmkWpPt_AcjhLJaOvvCDZGv5bPgl0VTOA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
