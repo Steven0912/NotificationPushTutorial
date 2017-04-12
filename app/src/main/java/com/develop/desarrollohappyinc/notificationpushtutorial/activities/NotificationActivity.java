@@ -1,8 +1,8 @@
 package com.develop.desarrollohappyinc.notificationpushtutorial.activities;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import com.develop.desarrollohappyinc.notificationpushtutorial.R;
@@ -17,6 +17,16 @@ public class NotificationActivity extends AppCompatActivity {
 
     private NotificationFragment mNotificationsFragment;
     private NotificationPresenter mNotificationsPresenter;
+
+    /*
+    * // token steven
+fMn2LBKTplw:APA91bFlMhgAILv3OMqlVV6HjmSOuyXITnSmsSSaC7mvBpWGLDWiR4Y2LUOlKjn29GuHWFtIDd0mUU1tQoRvETa5oZXSMYzUVF-VXSFlCLbl_yaWdclKKOQuWKRU3muOC0ghRqbIYcXi
+
+
+// token andres
+dKpHM_SU3U0:APA91bEocswlK7JZaoE_CDcTGHJLp8IYIjkwIXOjrE8q_FOGu2yHKKbl8jZwdqGxhcI2es73jmCRdNAYegkD_Pd7217Urutm_L5s2bvA4GgnB0uRZWfI0a0J8rjpsE2q3noxUFIpgA6c
+    *
+    * */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
